@@ -1,0 +1,6 @@
+# 注册组件
+idf_component_register(
+    SRCS "GPIO.c"
+    INCLUDE_DIRS "include"
+    REQUIRES "driver" "freertos" "esp_common"
+) 
